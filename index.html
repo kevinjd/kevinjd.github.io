@@ -1,111 +1,180 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<title>Personnal Webby</title>
-    	<link rel="stylesheet" href="style/reset.css">
-    	<link rel="stylesheet" href="style/style.css">
-	</head>
-
-	<body>
-	<div id = "header">
-        <div class = "container">
-          	<div id = "logo">
-          		<h1>Kevin D' Programmer</h1>
-          	</div>
-            <div id = "menu">
-              <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#secondlayer">About</a></li>
-                <li><a href="#thirdlayer">Portfolio</a></li>
-                <li><a href="#thirdlayer">Testimonials</a></li>
-                <li><a href="#fourthlayer">Contact Me</a></li>
-              </ul>
-            </div>
-            <div class="clear">
-            </div>
-        </div>
-    </div>
-
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=" width = device-width, initial-scale=1">
+    <title>Weeb</title>
+    <link href = "css/bootstrap.min.css" rel = "stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel = "stylesheet" href = "style/style.css">
+  </head>
+  <body>
     <div id = "banner">
-    	<h1><span>Kevin James</span></h1>
-    	<h3 class = "one"><span>Wannabe Web Designer . Design Copycat . Gaming is Life</span></h3>
-    	<h3 class = "two"><span>Coding is Lifer . Copy-Paste Master!</span></h3>
-    </div>
-
-    <div id = "social">
-    	<a href = "https://linkedin.com" target = "_blank"><img class = "link" src = "img/linklogo.png"></a>
-    	<a href = "https://facebook.com" target = "_blank"><img class = "fb" src = "img/fblogo.png"></a>
-    	<a href = "https://mail.google.com" target = "_blank"><img class = "gmail" src = "img/gmail.png"></a>
-    </div>
-
-    <div id="secondlayer">
-    	<h3>[uh-bout] \ˈmē\</h3>
-    	<div class = "container">
-        	<div class="box-image">
-            	<h1>Here is Something About Me! Now Stop Scrolling and Read It!</h1>
-        	</div>
-        	<div class="box-image">
-            	<img src = "img/bioimage.jpg">
-            	<p>I'm supposed to write something in this section. So here it goes. -to be continued-</p>
-        	</div>
+      <div class = "container-fluid">
+        <div class = "content">
+          <ul class = "bmenu">
+            <li><a href = "#about">About</a></li>
+            <li><a href = "#portfolio">Portfolio</a></li>
+            <li><a href = "#tools">The Tools I Use</a></li>
+          </ul>
         </div>
-        <div class = "clear"></div>
+        <div class = "text">
+          <h1>Kevin James</h1> 
+        </div>
+
+        <div class = "arrow">
+          <img src = "img/downarrow.png">
+        </div>
+      </div>
     </div>
 
-    <div id = "thirdlayer">
-    	<h3>tes·ti·mo·ni·als</h3>
-    	<div class = "container">
-    		<div class = "testimonials">
-    			<img src = "img/shawnlogo.jpg">
-    			<blockquote> <p> Astig! Bangis! Hardcore! Wooooo! <br> <em>– Shawn Spencer – Actor</em> </p> </blockquote>
-    		</div>
-    		<div class = "testimonials">
-    			<img src = "img/metallicalogo.jpg">
-    			<blockquote> <p> He makes websites that are so metal! I rate it four heavy metals out of five heavy metals! Rakers Tayo Men!! <br> <em>– James Hetfield– Vocalist, Metallica</em> </p> </blockquote>
-    		</div>
-    		<div class = "testimonials">
-    			<img src = "img/gordonlogo.jpg">
-    			<blockquote><p> P*ta, G*g*, Sh*t! <br> <em>– Gordon Ramsay – Chef</em> </p> </blockquote>
-    		</div>
-    	</div>
-    	<div class = "clear"></div>
+    <div id = "about">
+      <h1 class = "title">Uhbout Meh</h1>
+      <div class = "container-fluid">
+        <div class = "col-sm-6" id = "left">
+          <img class = "top" src = "img/profile.png">
+          <h1>Kevin James Dilem</h1>
+          <h3>Self Acclaimed Web Designer . Web Developer . Professional Slacker</h3>
+          <div class = "social">
+            <h1>Friends Forever? <br> Follow Me!</h1>
+            <a href = "#"><i class = "fa fa-twitter-square fa-5x"></i></a>
+            <a href = "#"><i class = "fa fa-facebook-official fa-5x"></i></a>
+            <a href = "#"><i class = "fa fa-google fa-5x"></i></a>
+            <a href = "#"><i class = "fa fa-github fa-5x"></i></a>
+          </div>
+        </div>
+        <div class = "col-sm-6" id = "right">
+          <h1>Who Am I</h1>
+          <hr>
+          <p>Some would say I was the chosen one. After that sentence I would just blabber anything to fill some space up. I have mastered procrastination. Then some nonsense will follow. Truth to be told I don't know a single thing about myself. Ask me like tell me something about myself and I would just stare at you for minutes while my head would try to think of something. Of course I would be able to think of something but it's the most stupidest things I have done in my life so that wouldn't count. The End.</p>
+
+          <h1>Skills</h1>
+          <hr>
+          <div class="skillbar clearfix " data-percent="40%">
+            <div class="skillbar-title" style="background: #d35400;">
+              <span><img src = "img/html32.png"></span>
+            </div>
+            <div class="skillbar-bar" style="background: #e67e22;"></div>
+            <div class="skill-bar-percent">20%</div>
+          </div> <!-- End Skill Bar -->
+
+          <div class="skillbar clearfix " data-percent="40%">
+            <div class="skillbar-title" style="background: #2980b9;">
+              <span><img src = "img/css32.png"></span>
+            </div>
+            <div class="skillbar-bar" style="background: #3498db;"></div>
+            <div class="skill-bar-percent">25%</div>
+          </div> <!-- End Skill Bar -->
+
+          <div class="skillbar clearfix " data-percent="5%">
+            <div class="skillbar-title" style="background: #2c3e50;">
+              <span><img src = "img/jquery32.png"></span>
+            </div>
+            <div class="skillbar-bar" style="background: #2c3e50;"></div>
+            <div class="skill-bar-percent">5%</div>
+          </div> <!-- End Skill Bar -->
+
+          <div class="skillbar clearfix " data-percent="30%">
+            <div class="skillbar-title" style="background: #46465e;">
+              <span><img src = "img/wp32.png"></span>
+            </div>
+            <div class="skillbar-bar" style="background: #5a68a5;"></div>
+            <div class="skill-bar-percent">30%</div>
+          </div> <!-- End Skill Bar -->
+
+          <div class="skillbar clearfix " data-percent="100%">
+            <div class="skillbar-title" style="background: #333333;">
+              <span><img src = "img/snooze.png"></span>
+            </div>
+            <div class="skillbar-bar" style="background: #525252;"></div>
+            <div class="skill-bar-percent">100%</div>
+          </div> <!-- End Skill Bar -->
+        </div>
+      </div>
     </div>
 
-    <div id = "fourthlayer">
-    	<h3>I Know You Want Me! <br> Contact Me!</h3>
-    	<div class = "container">
-    		<div id = "form-main">
-  			<div id="form-div">
-    			<form class="form" id="form1">
-      				<p class="name">
-        			<input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
-      				</p>
+    <div id = "portfolio">
+      <h1>Portfolio(Links Under Construction)</h1>
+      <div class = "container-fluid">
+      <div class = "col-md-4">
+        <div class = "thumbnail">
+          <img src="img/rubyproject.png">
+          <div class="caption">
+            <p>An automated numbers game. The concept for this was based on the poker game system developed by the students of CoderAcademy in Australia.</p>
+            <a class = "btn btn-social-icon btn-github" href = "">
+              <i class = "fa fa-github fa-2x"></i>
+            </a>
+          </div>
+        </div>
+      </div>
 
-      				<p class="email">
-        			<input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
-      				</p>
-      
-      				<p class="text">
-        			<textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
-      				</p>
-      
-      				<div class="submit">
-        			<input type="submit" value="SEND" id="button-blue"/>
-        			<div class="ease"></div>
-      				</div>
-      			</form>
-      		</div>
-      		</div>
-    	</div>
-    	<div class = "clear"></div>
+      <div class = "col-md-4">
+        <div class = "thumbnail">
+          <img src="img/protowebby.png">
+          <div class="caption">
+            <p>Prototype Web Page purely made out HTML and CSS only. Design was based on a one-page website format.                </p>
+            <a class = "btn btn-social-icon btn-github" href = "">
+              <i class = "fa fa-github fa-2x"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class = "col-md-4">
+        <div class = "thumbnail">
+          <img src="img/webby.png">
+          <div class="caption">
+            <p>Web Page developed using bootstrap with added jQuery. Design is still based on a one-page website format. Added effects using jQuery.</p>
+            <a class = "btn btn-social-icon btn-github" href = "">
+              <i class = "fa fa-github fa-2x"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div id = "tools">
+      <h1>Tools(Short for Advertisment)</h1>
+      <div class = "container-fluid">
+        <div class = "col-md-3">
+          <img src = "img/html5.png">
+        </div>
+        <div class = "col-md-3">
+          <img src = "img/css3.png">
+        </div>
+        <div class = "col-md-3">
+          <img src = "img/google.png">
+        </div>
+        <div class = "col-md-3">
+          <img src = "img/wp.png">
+        </div>
+        <div class = "col-md-3">
+          <img src = "img/sublime.png">
+        </div>
+        <div class = "col-md-3">
+          <img src = "img/mysql.png">
+        </div>
+        <div class = "col-md-3">
+          <img src = "img/js.png">
+        </div>
+        <div class = "col-md-3">
+          <img src = "img/asus.png">
+        </div>
+      </div>
     </div>
 
     <div id = "footer">
-    	<div class = "container">
-    		<p>Powered by: Other websites I copied from. ©Kebin Jems</p>
-    	</div>
+      <div class = "container-fluid">
+        <p>Powered By: Family Rubbing Alchohol: Di Lang Pampamilya Pang Isports Pa!</p>
+        <a href = "#"><i class = "fa fa-twitter-square fa-1x"></i></a>
+        <a href = "#"><i class = "fa fa-facebook-official fa-1x"></i></a>
+      </div>
     </div>
-	</body>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="style/myjs.js"></script>
+  </body>
 </html>
